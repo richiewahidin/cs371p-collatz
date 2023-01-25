@@ -11,7 +11,6 @@
 
 #include "Collatz.hpp"
 
-
 using namespace std;
 
 // ----------------
@@ -26,8 +25,8 @@ int cycle_length (int n) {
             n = n / 2;
             ++c;
         } else {
-            n = n + (n >> 1) + 1;
-            c += 2;
+            n = (3 * n + 1) / 2;
+            c = c + 2;
         }
     }
     assert (c > 0);
@@ -41,7 +40,7 @@ unsigned max_cycle_length (unsigned i, unsigned j) {
     int maximum = 0;
     int start = min (i,  j);
     int end = max (i, j);
-    int m = end / 2 + 1;
+    int m = (end / 2) + 1;
     if (m > start) {
         start = m;
     }
@@ -54,7 +53,3 @@ unsigned max_cycle_length (unsigned i, unsigned j) {
     }
     assert (maximum > 0);
     return maximum;}
-
-
-
-

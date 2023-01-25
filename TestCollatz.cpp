@@ -20,7 +20,7 @@ using namespace std;
 // ----------------
 
 TEST(CollatzFixture, max_cycle_length_0) {
-    ASSERT_EQ(max_cycle_length(1, 1), 1u);}
+    ASSERT_EQ(max_cycle_length(1, 3), 8u);}
 
 TEST(CollatzFixture, max_cycle_length_1) {
     ASSERT_EQ(max_cycle_length(1, 10), 20u);}
@@ -32,4 +32,4 @@ TEST(CollatzFixture, max_cycle_length_3) {
     ASSERT_EQ(max_cycle_length(900, 1000), 174u);}
 
 TEST(CollatzFixture, max_cycle_length_4) {
-    ASSERT_EQ(max_cycle_length(4000000, 245), 535u);}
+    ASSERT_EQ(max_cycle_length(769753, 298727), 470u);}
