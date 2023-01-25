@@ -17,10 +17,15 @@ using namespace std;
 // max_cycle_length
 // ----------------
 
+int cache [1000000];
+
 int cycle_length (int n) {
     assert (n > 0);
     int c = 1;
     while (n > 1) {
+        if (cache[n] != 0) {
+            return c + cache[n] - 1;
+        }
         if (n % 2 == 0) {
             n = n / 2;
             ++c;
@@ -48,6 +53,7 @@ unsigned max_cycle_length (unsigned i, unsigned j) {
 
     while (start <= end) {
         temp = cycle_length (start);
+        cache[start] = temp;
         maximum = max(maximum, temp);
         start++;
     }
