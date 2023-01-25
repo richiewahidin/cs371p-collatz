@@ -23,7 +23,7 @@ int cycle_length (int n) {
     assert (n > 0);
     int c = 1;
     while (n > 1) {
-        if (cache[n] != 0) {
+        if (n < 1000000 && cache[n] != 0) {
             return c + cache[n] - 1;
         }
         if (n % 2 == 0) {

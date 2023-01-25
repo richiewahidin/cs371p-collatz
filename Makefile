@@ -77,7 +77,7 @@ push:
 	git add RunCollatz.cpp
 	git add RunCollatz.ctd.txt
 	git add TestCollatz.cpp
-	git commit -m "solved issue #6 but having issues with segfault"
+	git commit -m "solved segfault issue #9 by adding bounds, still fail some tests"
 	git push
 	git status
 
