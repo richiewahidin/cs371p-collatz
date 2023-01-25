@@ -77,7 +77,7 @@ push:
 	git add RunCollatz.cpp
 	git add RunCollatz.ctd.txt
 	git add TestCollatz.cpp
-	git commit -m "solved segfault issue #9 by adding bounds, still fail some tests"
+	git commit -m "solved issue #15, faster results"
 	git push
 	git status
 
@@ -117,7 +117,7 @@ T_FILES := `ls ../cs371p-collatz-tests/*.in.txt`
 
 # generate a random input file
 ctd-generate:
-	for v in {1..100}; do $(CHECKTESTDATA) -g RunCollatz.ctd.txt >> RunCollatz.gen.txt; done
+	for v in {1..200}; do $(CHECKTESTDATA) -g RunCollatz.ctd.txt >> RunCollatz.gen.txt; done
 
 # execute the run harness against a test file in the Collatz test repo and diff with the expected output
 ../cs371p-collatz-tests/%: RunCollatz

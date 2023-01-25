@@ -1,19 +1,19 @@
 # CS371p: Object-Oriented Programming Collatz Repo
 
-* Name: (your Full Name)
+* Name: Richie Wahidin
 
-* EID: (your EID)
+* EID: raw3643
 
-* GitLab ID: (your GitLab ID)
+* GitLab ID: richiewahidin
 
-* HackerRank ID: (your HackerRank ID)
+* HackerRank ID: richiewahidin
 
-* Git SHA: (most recent Git SHA, final change to your repo will change this, that's ok)
+* Git SHA: e12d0e0b6626b53449126b5b5d8bc643eaa1a04e
 
-* GitLab Pipelines: (link to your GitLab CI Pipeline)
+* GitLab Pipelines: https://gitlab.com/richiewahidin/cs371p-collatz/-/pipelines
 
-* Estimated completion time: (estimated time in hours, int or float)
+* Estimated completion time: 3.0
 
-* Actual completion time: (actual time in hours, int or float)
+* Actual completion time: 5.0
 
 * Comments: (any additional comments you have)

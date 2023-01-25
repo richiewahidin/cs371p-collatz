@@ -18,6 +18,7 @@ using namespace std;
 // ----------------
 
 int cache [1000000];
+bool firstRun = true;
 
 int cycle_length (int n) {
     assert (n > 0);
@@ -42,6 +43,13 @@ unsigned max_cycle_length (unsigned i, unsigned j) {
     assert(i > 0);
     assert(j > 0);
 
+    if (firstRun) {
+        for (int k = 1; k < 100000; k++) {
+            cache[k] = cycle_length(k);
+        }
+        firstRun = false;
+    }
+
     int maximum = 0;
     int start = min (i,  j);
     int end = max (i, j);
@@ -58,4 +66,5 @@ unsigned max_cycle_length (unsigned i, unsigned j) {
         start++;
     }
     assert (maximum > 0);
-    return maximum;}
+    return maximum;
+}
