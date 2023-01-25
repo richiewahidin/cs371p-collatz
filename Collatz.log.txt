@@ -1,3 +1,63 @@
+commit d52c795b2fc02996e9fdda120b5e22515da98a3f
+Author: Richie Wahidin <richie@cs.utexas.edu>
+Date:   Wed Jan 25 16:28:04 2023 -0600
+
+    solved issue #12, #14, #15, #16
+
+commit 0152aa16c962c8092f9fd915918b07868cb09723
+Author: Richie Wahidin <richie@cs.utexas.edu>
+Date:   Wed Jan 25 11:27:57 2023 -0600
+
+    solved issue #15, faster results
+
+commit e12d0e0b6626b53449126b5b5d8bc643eaa1a04e
+Author: Richie Wahidin <richie@cs.utexas.edu>
+Date:   Wed Jan 25 09:03:07 2023 -0600
+
+    solved segfault issue #9 by adding bounds, still fail some tests
+
+commit 5c0f9ad59aab2a7020a8ced13425d6ca1fc59534
+Author: Richie Wahidin <richie@cs.utexas.edu>
+Date:   Wed Jan 25 01:15:40 2023 -0600
+
+    solved issue #6 but having issues with segfault
+
+commit a188e45d87af639a37880b648efaeead9a1e03c6
+Author: Richie Wahidin <richie@cs.utexas.edu>
+Date:   Wed Jan 25 01:09:16 2023 -0600
+
+    solved issue #5
+
+commit 8d68b9b39ca6bd8cdb4f62fdf46a1745be85473e
+Author: Richie Wahidin <richie@cs.utexas.edu>
+Date:   Tue Jan 24 21:20:05 2023 -0600
+
+    solved issue #5
+
+commit c655f1be3f39c4b65d3655ba12509c612eed02ee
+Author: Richie Wahidin <richie@cs.utexas.edu>
+Date:   Tue Jan 24 21:09:40 2023 -0600
+
+    solved issue #3
+
+commit ee48ca3d3573e34f3c28881dddd579eb327c010d
+Author: Richie Wahidin <richie@cs.utexas.edu>
+Date:   Tue Jan 24 21:06:02 2023 -0600
+
+    solved issue #1 and #2
+
+commit 72892903a949a619700a08c28b1f3d767417ea7a
+Author: Richie Wahidin <richie@cs.utexas.edu>
+Date:   Tue Jan 24 20:54:51 2023 -0600
+
+    solved issue #1 and #2
+
+commit 7978de060a015781ad6b5599921479c9a3fe83a3
+Author: Richie Wahidin <richie@cs.utexas.edu>
+Date:   Sat Jan 21 17:43:40 2023 -0600
+
+    another commit
+
 commit 302ceaa2e7a0af0b4720c8eda354c680516e67aa
 Author: Glenn Downing <downing@cs.utexas.edu>
 Date:   Thu Jan 12 20:02:39 2023 -0600

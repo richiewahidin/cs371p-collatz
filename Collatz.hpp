@@ -18,6 +18,6 @@
  * @return max cycle length of the range, inclusive
  */
 unsigned max_cycle_length (unsigned i, unsigned j);
-ull cycle_length (ull n); 
+ull cycle_length (ull n);
 
 #endif // Collatz_hpp

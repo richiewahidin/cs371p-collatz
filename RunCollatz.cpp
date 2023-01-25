@@ -17,9 +17,11 @@ using namespace std;
 // ----
 
 int main () {
-    unsigned i, j; 
+    unsigned i, j;
     while (cin >> i >> j) {
         unsigned v = max_cycle_length(i, j);
-        cout << i << " " << j << " " << v << endl;}
+        cout << i << " " << j << " " << v << endl;
+    }
 
-    return 0;}
+    return 0;
+}

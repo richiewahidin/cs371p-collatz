@@ -32,8 +32,8 @@ ull cycle_length (ull n) {
 
             // subtract 1 as the function counts steps + 1, and by using the
             // cache we are adding 1 twice, so need to subtract by 1
-            return c + cache[n] - 1; 
-                                    
+            return c + cache[n] - 1;
+
         }
         if (n % 2 == 0) {
             n = n / 2;

@@ -8,7 +8,7 @@
 
 * HackerRank ID: richiewahidin
 
-* Git SHA: e12d0e0b6626b53449126b5b5d8bc643eaa1a04e
+* Git SHA: d52c795b2fc02996e9fdda120b5e22515da98a3f
 
 * GitLab Pipelines: https://gitlab.com/richiewahidin/cs371p-collatz/-/pipelines
 
