@@ -77,7 +77,7 @@ push:
 	git add RunCollatz.cpp
 	git add RunCollatz.ctd.txt
 	git add TestCollatz.cpp
-	git commit -m "solved issue #1 and #2"
+	git commit -m "solved issue #3"
 	git push
 	git status
 
