@@ -30,3 +30,6 @@ TEST(CollatzFixture, max_cycle_length_2) {
 
 TEST(CollatzFixture, max_cycle_length_3) {
     ASSERT_EQ(max_cycle_length(900, 1000), 174u);}
+
+TEST(CollatzFixture, max_cycle_length_4) {
+    ASSERT_EQ(max_cycle_length(10, 1), 20u);}
