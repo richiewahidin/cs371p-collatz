@@ -77,7 +77,7 @@ push:
 	git add RunCollatz.cpp
 	git add RunCollatz.ctd.txt
 	git add TestCollatz.cpp
-	git commit -m "solved issue #15, faster results"
+	git commit -m "solved issue #12, #14, #15, #16"
 	git push
 	git status
 
@@ -127,7 +127,7 @@ ctd-generate:
 
 # execute the run harness against your test files in the Collatz test repo and diff with the expected output
 run: ../cs371p-collatz-tests
-	-make ../cs371p-collatz-tests/gpdowning-RunCollatz # change gpdowning to your GitLab-ID
+	-make ../cs371p-collatz-tests/richiewahidin-RunCollatz # change gpdowning to your GitLab-ID
 
 # execute the run harness against all of the test files in the Collatz test repo and diff with the expected output
 run-all: ../cs371p-collatz-tests
